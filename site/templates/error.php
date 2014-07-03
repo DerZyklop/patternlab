@@ -1,7 +1,11 @@
 <?php snippet('header') ?>
 
-<div class="pl-error">
-  <h1><?php echo html($page->title()) ?></h1>
+<div class="pl-content">
+
+  <h2 class="pl-pattern-headline">
+    <a href="#"><?php echo html($page->title()) ?></a>
+  </h2>
+
   <?php echo kirbytext($page->text()) ?>
 </div>
 

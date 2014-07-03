@@ -1,3 +1,8 @@
+html {
+  min-height: 100%;
+  background: #fff;
+}
+
 /* App */
 .pl {
   margin: 0;
@@ -149,13 +154,6 @@
 }
 .pl-main-iframe {
   padding: 30px 20px 60px;
-}
-
-
-/* Error Page */
-.pl-error * {
-  font-family: Arial;
-  font-size: 14px;
 }
 
 /* Code View */
