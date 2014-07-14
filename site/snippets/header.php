@@ -16,6 +16,8 @@
   <?php echo css('styles.css') ?>
   <?php echo css(yaml($site->css())) ?>
 
+  <?php echo js(yaml($site->js())) ?>
+
 </head>
   <body class="pl">
 
