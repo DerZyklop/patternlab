@@ -27,6 +27,17 @@
 
   ?></code></pre>
 
+  <?php elseif ($sass = $page->files()->find('styles.sass')): ?>
+
+  <h2 id="sass" class="pl-pattern-headline">
+    <a href="#sass">SASS</a>
+  </h2>
+  <pre class="pl-codeview"><code><?php
+
+  echo htmlspecialchars(trim(f::read($sass->root())));
+
+  ?></code></pre>
+
   <?php endif ?>
 
 <?php else: ?>
